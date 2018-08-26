@@ -1,4 +1,4 @@
-from operator import attrgetter
+from operator import itemgetter
 
 import requests
 
@@ -99,7 +99,7 @@ def to_member(user, usergroups):
         'description': ug['description'],
     } for ug in usergroups]
 
-    avatars = filter(attrgetter('url'), [
+    avatars = filter(itemgetter('url'), [
         {'source': 'slack', 'url': profile.get('image_32')},
         {'source': 'slack', 'url': profile.get('image_192')},
     ])
