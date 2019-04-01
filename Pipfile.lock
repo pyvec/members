@@ -79,10 +79,10 @@
         },
         "python-slugify": {
             "hashes": [
-                "sha256:492b27e5a12495340e50652ab4eab3a229ef7167c44b66b3a2861450e68b269a"
+                "sha256:57163ffb345c7e26063435a27add1feae67fa821f1ef4b2f292c25847575d758"
             ],
             "index": "pypi",
-            "version": "==3.0.1"
+            "version": "==3.0.2"
         },
         "pyyaml": {
             "hashes": [
